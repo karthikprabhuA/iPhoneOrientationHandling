@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D3139041631707500E4A5B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3139031631707500E4A5B4 /* UIKit.framework */; };
+		2D3139061631707500E4A5B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3139051631707500E4A5B4 /* Foundation.framework */; };
+		2D3139081631707500E4A5B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3139071631707500E4A5B4 /* CoreGraphics.framework */; };
+		2D31390E1631707500E4A5B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D31390C1631707500E4A5B4 /* InfoPlist.strings */; };
+		2D3139101631707500E4A5B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D31390F1631707500E4A5B4 /* main.m */; };
+		2D3139141631707500E4A5B4 /* AKPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3139131631707500E4A5B4 /* AKPAppDelegate.m */; };
+		2D3139171631707500E4A5B4 /* AKPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3139161631707500E4A5B4 /* AKPViewController.m */; };
+		2D31391A1631707600E4A5B4 /* AKPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D3139181631707600E4A5B4 /* AKPViewController.xib */; };
+		2D3139221631707600E4A5B4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3139211631707600E4A5B4 /* SenTestingKit.framework */; };
+		2D3139231631707600E4A5B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3139031631707500E4A5B4 /* UIKit.framework */; };
+		2D3139241631707600E4A5B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3139051631707500E4A5B4 /* Foundation.framework */; };
+		2D31392C1631707600E4A5B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D31392A1631707600E4A5B4 /* InfoPlist.strings */; };
+		2D31392F1631707600E4A5B4 /* HandleOrientationLandscapeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D31392E1631707600E4A5B4 /* HandleOrientationLandscapeTests.m */; };
+		2D31393F1631732C00E4A5B4 /* jackson.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2D3139391631732C00E4A5B4 /* jackson.jpeg */; };
+		2D3139401631732C00E4A5B4 /* saibaba.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2D31393A1631732C00E4A5B4 /* saibaba.jpeg */; };
+		2D3139411631732C00E4A5B4 /* teacher.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2D31393B1631732C00E4A5B4 /* teacher.jpeg */; };
+		2D3139421631732C00E4A5B4 /* steve-jobs.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2D31393C1631732C00E4A5B4 /* steve-jobs.jpeg */; };
+		2D3139431631732C00E4A5B4 /* Bill-Gates.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2D31393D1631732C00E4A5B4 /* Bill-Gates.jpeg */; };
+		2D3139441631732C00E4A5B4 /* actress.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2D31393E1631732C00E4A5B4 /* actress.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D3139251631707600E4A5B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D3138F61631707500E4A5B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D3138FE1631707500E4A5B4;
+			remoteInfo = HandleOrientationLandscape;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D3138FF1631707500E4A5B4 /* HandleOrientationLandscape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandleOrientationLandscape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D3139031631707500E4A5B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2D3139051631707500E4A5B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2D3139071631707500E4A5B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2D31390B1631707500E4A5B4 /* HandleOrientationLandscape-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HandleOrientationLandscape-Info.plist"; sourceTree = "<group>"; };
+		2D31390D1631707500E4A5B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D31390F1631707500E4A5B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D3139111631707500E4A5B4 /* HandleOrientationLandscape-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HandleOrientationLandscape-Prefix.pch"; sourceTree = "<group>"; };
+		2D3139121631707500E4A5B4 /* AKPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKPAppDelegate.h; sourceTree = "<group>"; };
+		2D3139131631707500E4A5B4 /* AKPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKPAppDelegate.m; sourceTree = "<group>"; };
+		2D3139151631707500E4A5B4 /* AKPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKPViewController.h; sourceTree = "<group>"; };
+		2D3139161631707500E4A5B4 /* AKPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKPViewController.m; sourceTree = "<group>"; };
+		2D3139191631707600E4A5B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AKPViewController.xib; sourceTree = "<group>"; };
+		2D3139201631707600E4A5B4 /* HandleOrientationLandscapeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandleOrientationLandscapeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D3139211631707600E4A5B4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2D3139291631707600E4A5B4 /* HandleOrientationLandscapeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HandleOrientationLandscapeTests-Info.plist"; sourceTree = "<group>"; };
+		2D31392B1631707600E4A5B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D31392D1631707600E4A5B4 /* HandleOrientationLandscapeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HandleOrientationLandscapeTests.h; sourceTree = "<group>"; };
+		2D31392E1631707600E4A5B4 /* HandleOrientationLandscapeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandleOrientationLandscapeTests.m; sourceTree = "<group>"; };
+		2D3139391631732C00E4A5B4 /* jackson.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jackson.jpeg; sourceTree = "<group>"; };
+		2D31393A1631732C00E4A5B4 /* saibaba.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saibaba.jpeg; sourceTree = "<group>"; };
+		2D31393B1631732C00E4A5B4 /* teacher.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teacher.jpeg; sourceTree = "<group>"; };
+		2D31393C1631732C00E4A5B4 /* steve-jobs.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "steve-jobs.jpeg"; sourceTree = "<group>"; };
+		2D31393D1631732C00E4A5B4 /* Bill-Gates.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bill-Gates.jpeg"; sourceTree = "<group>"; };
+		2D31393E1631732C00E4A5B4 /* actress.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = actress.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D3138FC1631707500E4A5B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D3139041631707500E4A5B4 /* UIKit.framework in Frameworks */,
+				2D3139061631707500E4A5B4 /* Foundation.framework in Frameworks */,
+				2D3139081631707500E4A5B4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D31391C1631707600E4A5B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D3139221631707600E4A5B4 /* SenTestingKit.framework in Frameworks */,
+				2D3139231631707600E4A5B4 /* UIKit.framework in Frameworks */,
+				2D3139241631707600E4A5B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D3138F41631707500E4A5B4 = {
+			isa = PBXGroup;
+			children = (
+				2D3139091631707500E4A5B4 /* HandleOrientationLandscape */,
+				2D3139271631707600E4A5B4 /* HandleOrientationLandscapeTests */,
+				2D3139021631707500E4A5B4 /* Frameworks */,
+				2D3139001631707500E4A5B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D3139001631707500E4A5B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D3138FF1631707500E4A5B4 /* HandleOrientationLandscape.app */,
+				2D3139201631707600E4A5B4 /* HandleOrientationLandscapeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D3139021631707500E4A5B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D3139031631707500E4A5B4 /* UIKit.framework */,
+				2D3139051631707500E4A5B4 /* Foundation.framework */,
+				2D3139071631707500E4A5B4 /* CoreGraphics.framework */,
+				2D3139211631707600E4A5B4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D3139091631707500E4A5B4 /* HandleOrientationLandscape */ = {
+			isa = PBXGroup;
+			children = (
+				2D3139381631731B00E4A5B4 /* Resources */,
+				2D3139121631707500E4A5B4 /* AKPAppDelegate.h */,
+				2D3139131631707500E4A5B4 /* AKPAppDelegate.m */,
+				2D3139151631707500E4A5B4 /* AKPViewController.h */,
+				2D3139161631707500E4A5B4 /* AKPViewController.m */,
+				2D3139181631707600E4A5B4 /* AKPViewController.xib */,
+				2D31390A1631707500E4A5B4 /* Supporting Files */,
+			);
+			path = HandleOrientationLandscape;
+			sourceTree = "<group>";
+		};
+		2D31390A1631707500E4A5B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D31390B1631707500E4A5B4 /* HandleOrientationLandscape-Info.plist */,
+				2D31390C1631707500E4A5B4 /* InfoPlist.strings */,
+				2D31390F1631707500E4A5B4 /* main.m */,
+				2D3139111631707500E4A5B4 /* HandleOrientationLandscape-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D3139271631707600E4A5B4 /* HandleOrientationLandscapeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D31392D1631707600E4A5B4 /* HandleOrientationLandscapeTests.h */,
+				2D31392E1631707600E4A5B4 /* HandleOrientationLandscapeTests.m */,
+				2D3139281631707600E4A5B4 /* Supporting Files */,
+			);
+			path = HandleOrientationLandscapeTests;
+			sourceTree = "<group>";
+		};
+		2D3139281631707600E4A5B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D3139291631707600E4A5B4 /* HandleOrientationLandscapeTests-Info.plist */,
+				2D31392A1631707600E4A5B4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D3139381631731B00E4A5B4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2D3139391631732C00E4A5B4 /* jackson.jpeg */,
+				2D31393A1631732C00E4A5B4 /* saibaba.jpeg */,
+				2D31393B1631732C00E4A5B4 /* teacher.jpeg */,
+				2D31393C1631732C00E4A5B4 /* steve-jobs.jpeg */,
+				2D31393D1631732C00E4A5B4 /* Bill-Gates.jpeg */,
+				2D31393E1631732C00E4A5B4 /* actress.jpeg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D3138FE1631707500E4A5B4 /* HandleOrientationLandscape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D3139321631707600E4A5B4 /* Build configuration list for PBXNativeTarget "HandleOrientationLandscape" */;
+			buildPhases = (
+				2D3138FB1631707500E4A5B4 /* Sources */,
+				2D3138FC1631707500E4A5B4 /* Frameworks */,
+				2D3138FD1631707500E4A5B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandleOrientationLandscape;
+			productName = HandleOrientationLandscape;
+			productReference = 2D3138FF1631707500E4A5B4 /* HandleOrientationLandscape.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D31391F1631707600E4A5B4 /* HandleOrientationLandscapeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D3139351631707600E4A5B4 /* Build configuration list for PBXNativeTarget "HandleOrientationLandscapeTests" */;
+			buildPhases = (
+				2D31391B1631707600E4A5B4 /* Sources */,
+				2D31391C1631707600E4A5B4 /* Frameworks */,
+				2D31391D1631707600E4A5B4 /* Resources */,
+				2D31391E1631707600E4A5B4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D3139261631707600E4A5B4 /* PBXTargetDependency */,
+			);
+			name = HandleOrientationLandscapeTests;
+			productName = HandleOrientationLandscapeTests;
+			productReference = 2D3139201631707600E4A5B4 /* HandleOrientationLandscapeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D3138F61631707500E4A5B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AKP;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2D3138F91631707500E4A5B4 /* Build configuration list for PBXProject "HandleOrientationLandscape" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2D3138F41631707500E4A5B4;
+			productRefGroup = 2D3139001631707500E4A5B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D3138FE1631707500E4A5B4 /* HandleOrientationLandscape */,
+				2D31391F1631707600E4A5B4 /* HandleOrientationLandscapeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D3138FD1631707500E4A5B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D31390E1631707500E4A5B4 /* InfoPlist.strings in Resources */,
+				2D31391A1631707600E4A5B4 /* AKPViewController.xib in Resources */,
+				2D31393F1631732C00E4A5B4 /* jackson.jpeg in Resources */,
+				2D3139401631732C00E4A5B4 /* saibaba.jpeg in Resources */,
+				2D3139411631732C00E4A5B4 /* teacher.jpeg in Resources */,
+				2D3139421631732C00E4A5B4 /* steve-jobs.jpeg in Resources */,
+				2D3139431631732C00E4A5B4 /* Bill-Gates.jpeg in Resources */,
+				2D3139441631732C00E4A5B4 /* actress.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D31391D1631707600E4A5B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D31392C1631707600E4A5B4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D31391E1631707600E4A5B4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D3138FB1631707500E4A5B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D3139101631707500E4A5B4 /* main.m in Sources */,
+				2D3139141631707500E4A5B4 /* AKPAppDelegate.m in Sources */,
+				2D3139171631707500E4A5B4 /* AKPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D31391B1631707600E4A5B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D31392F1631707600E4A5B4 /* HandleOrientationLandscapeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D3139261631707600E4A5B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D3138FE1631707500E4A5B4 /* HandleOrientationLandscape */;
+			targetProxy = 2D3139251631707600E4A5B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D31390C1631707500E4A5B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D31390D1631707500E4A5B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2D3139181631707600E4A5B4 /* AKPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D3139191631707600E4A5B4 /* en */,
+			);
+			name = AKPViewController.xib;
+			sourceTree = "<group>";
+		};
+		2D31392A1631707600E4A5B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D31392B1631707600E4A5B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D3139301631707600E4A5B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D3139311631707600E4A5B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D3139331631707600E4A5B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HandleOrientationLandscape/HandleOrientationLandscape-Prefix.pch";
+				INFOPLIST_FILE = "HandleOrientationLandscape/HandleOrientationLandscape-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2D3139341631707600E4A5B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HandleOrientationLandscape/HandleOrientationLandscape-Prefix.pch";
+				INFOPLIST_FILE = "HandleOrientationLandscape/HandleOrientationLandscape-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2D3139361631707600E4A5B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HandleOrientationLandscape.app/HandleOrientationLandscape";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HandleOrientationLandscape/HandleOrientationLandscape-Prefix.pch";
+				INFOPLIST_FILE = "HandleOrientationLandscapeTests/HandleOrientationLandscapeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2D3139371631707600E4A5B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HandleOrientationLandscape.app/HandleOrientationLandscape";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HandleOrientationLandscape/HandleOrientationLandscape-Prefix.pch";
+				INFOPLIST_FILE = "HandleOrientationLandscapeTests/HandleOrientationLandscapeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D3138F91631707500E4A5B4 /* Build configuration list for PBXProject "HandleOrientationLandscape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D3139301631707600E4A5B4 /* Debug */,
+				2D3139311631707600E4A5B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D3139321631707600E4A5B4 /* Build configuration list for PBXNativeTarget "HandleOrientationLandscape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D3139331631707600E4A5B4 /* Debug */,
+				2D3139341631707600E4A5B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2D3139351631707600E4A5B4 /* Build configuration list for PBXNativeTarget "HandleOrientationLandscapeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D3139361631707600E4A5B4 /* Debug */,
+				2D3139371631707600E4A5B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D3138F61631707500E4A5B4 /* Project object */;
+}
